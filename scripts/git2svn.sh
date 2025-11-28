@@ -1,10 +1,4 @@
 #!/bin/bash
-#title: git2svn.sh
-#description: This script will commit last git changes to svn for a bash script.
-#author: Mehmet Sergen ERGEN (mergen)
-#usage: bash git2svn.sh <git-repo-url> <svn-repo-url> <commit-message:Optional>
-#date: 2024/08/27
-#version: 0.0.2
 
 DEBUG='\033[32;49;1m'
 ERROR='\033[31;49;1m'
