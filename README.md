@@ -22,11 +22,11 @@ chmod +x svn2git.sh git2svn.sh
 ```bash
 bash svn2git.sh <svn-repo-url> <git-repo-url> <branch-name> [commit-message]
 ```
-- <svn-repo-url> → URL of the source SVN repository
+- svn-repo-url → URL of the source SVN repository
 
-- <git-repo-url> → URL of the target Git repository
+- git-repo-url → URL of the target Git repository
 
-- <branch-name> → Target Git branch name (e.g., main, develop, bugfix)
+- branch-name → Target Git branch name (e.g., main, develop, bugfix)
 
 - [commit-message] (optional) → Custom commit message. If omitted, a default message will be used.
 
@@ -38,8 +38,8 @@ bash svn2git.sh <svn-repo-url> <git-repo-url> <branch-name> [commit-message]
 bash git2svn.sh <git-repo-url> <svn-repo-url> [commit-message]
 ```
 
-- <git-repo-url> → URL of the source Git repository
+- git-repo-url → URL of the source Git repository
 
-- <svn-repo-url> → URL of the target SVN repository
+- svn-repo-url → URL of the target SVN repository
 
 - [commit-message] (optional) → Custom commit message. If omitted, a default message will be used.
